@@ -27,11 +27,11 @@ function App() {
         {
           model: "gpt-3.5-turbo", //Model ID
           messages: messages,
-          max_tokens: 80,
+          max_tokens: 85,
         },
         {
           headers: {
-            Authorization: 'Bearer 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',
+            Authorization: 'Bearer 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',
           },
         }
       );

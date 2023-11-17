@@ -12,7 +12,6 @@ function DomainList ({ domainSuggestion}: {domainSuggestion: string[] }){
     //console.log(domainSuggestion) *in case of API error*
     return( 
         <div>
-            
             <ul className="list" ref={listRef}>
                 {domainSuggestion.map((domain, index) => (  
                     <li key={index}>
